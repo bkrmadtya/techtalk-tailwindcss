@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta httm-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body
+    class="p-16 [&>p]:bg-slate-700 [&>p]:text-gray-200 [&>p]:m-2"
+  >
+    <!-- Normal height syntaxes -->
+    <p class="h-16">Height (h-16 = 16 * 0.25 rem)</p>
+    <!-- Height with ratio -->
+    <p class="h-3/6">Height (h-3/6)</p>
+    <!-- Height based on content -->
+    <p class="h-min">Height min-content (h-min)</p>
+    <p class="h-max">Height max-content (h-max)</p>
+    <p class="h-fit">Height fit-content (h-fit)</p>
+    <!-- Height with custom values -->
+    <p class="h-[4rem]"
+      >Height with custom value (h-[32rem])</p
+    >
+    <!-- Height with min values (limited) -->
+    <p class="min-h-0">Min Height (min-h-0 = 0px)</p>
+    <!-- Height with max values (more flexible) -->
+    <p class="max-h-8"
+      >Height with max value (max-h-8 = 2rem)</p
+    >
+    <p class="max-h-[50%]"
+      >Height with max value (max-h-[50%] = 50%)</p
+    >
+    <!-- Height based on available space -->
+    <p class="h-full">Height full (h-full = 100%)</p>
+    <p class="h-screen">Height screen (h-screen = 100vh)</p>
+  </body>
+</html>
